@@ -11,4 +11,12 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.7" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FreeCoreApp.Application\FreeCoreApp.Application.csproj" />
+    <ProjectReference Include="..\FreeCoreApp.Data.EF\FreeCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\FreeCoreApp.Data\FreeCoreApp.Data.csproj" />
+    <ProjectReference Include="..\FreeCoreApp.Infrastructure\FreeCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\FreeCoreApp.Utilities\FreeCoreApp.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
